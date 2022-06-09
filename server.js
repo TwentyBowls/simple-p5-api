@@ -4,7 +4,7 @@ const PORT = 3000
 const cors = require('cors')
 
 app.use(cors())
-app.use(express.static('/public'))
+app.use(express.static(__dirname + '/public'))
 
 const confidants = {
     'igor': {
@@ -12,7 +12,7 @@ const confidants = {
         arcana: 'Fool',
         arcanaNum: '0',
         lore: 'Master of the Velvet Room. Observes and aids you under the pretext of "rehabilitation toward freedom."',
-        src: '/public/img/igor_confidant.png'
+        src: '/img/igor_confidant.png'
     },
     'morgana': {
         name: 'Morgana',
