@@ -47,7 +47,9 @@ const confidants = {
         arcana: 'Hierophant',
         arcanaNum: 'V',
         lore: 'The boss of the café Leblanc. He is your guardian in Tokyo.',
-        src: '/public/img/sojiro_confidant.png'      
+        src: 'https://static.wikia.nocookie.net/megamitensei/images/c/c9/Persona_5_Confidant_Guides_Icon_%28Hierophant%29_-_Sojiro_Sakura.png/revision/latest?cb=20180609125115',
+        // src: '/public/img/sojiro_confidant.png',      
+        
     },    
     'ann': {
         name: 'Ann Takamaki',
